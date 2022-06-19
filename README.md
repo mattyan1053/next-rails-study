@@ -13,6 +13,8 @@ mattyan1053によるWeb開発練習用リポジトリ
 Docker, docker composeがインストールされていれば、自動で環境構築します。
 
 ```sh
+# node_modulesのインストール
+$ docker compose run --rm frontend yarn install
 # イメージのビルド
 $ docker compose build
 # コンテナの起動
