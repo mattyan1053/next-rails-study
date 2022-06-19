@@ -2,7 +2,7 @@ services:
   frontend:
     build:
       context: .
-      dockerfile: ./dockerfiles/Dockerfile_frontend
+      dockerfile: ./docker/Dockerfile_frontend
     volumes:
       - ./frontend:/home/node/app 
     command: sh -c "yarn dev"
