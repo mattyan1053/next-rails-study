@@ -1,0 +1,4 @@
+FROM node:16.15.1
+WORKDIR /home/node/app
+
+USER node

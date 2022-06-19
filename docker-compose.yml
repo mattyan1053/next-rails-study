@@ -1,0 +1,10 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: ./dockerfiles/Dockerfile_frontend
+    volumes:
+      - ./frontend:/home/node/app 
+    command: sh -c "yarn dev"
+    ports:
+      - "3000:3000"
