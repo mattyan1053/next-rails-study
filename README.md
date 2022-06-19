@@ -15,8 +15,6 @@ Docker, docker composeがインストールされていれば、自動で環境�
 ```sh
 # node_modulesのインストール
 $ docker compose run --rm frontend yarn install
-# イメージのビルド
-$ docker compose build
 # コンテナの起動
 $ docker compose up -d
 ```
